@@ -37,8 +37,8 @@ def par_rect_concr(**kwargs):
 ### Examples
 unconf_conc = {"f_c": 20}
 conf_conc = conf_concr_EC2(f_c= unconf_conc["f_c"], 
-                            b=300, h=400, c=25, ## occhio alle unità di misura che devono essere consistenti
-                            A_stx=2 * np.pi * 4**2, A_sty= 2 * np.pi * 4**2, # per esempio due bracci di Ø8 
+                            b=300, h=400, c=25, ## be careful with the units that should be consistent and the sign (in this case positive)
+                            A_stx=2 * np.pi * 4**2, A_sty= 2 * np.pi * 4**2, # for example 2 legs of Ø8 stirrups
                             s=150, f_yw=450, phi_l = 18)
 
 
