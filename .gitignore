@@ -8,7 +8,6 @@
 /__pycache__
 
 plot_settings.py
-test*.py
 sandbox*.py
 
 *.pickle
